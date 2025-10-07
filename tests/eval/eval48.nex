@@ -1,0 +1,22 @@
+var f;
+var g;
+var a;
+var b;
+var c;
+
+fun factory(x) {
+   f = anon(dx) { x = x + dx; return x; };
+   g = anon(dx) { x = x - dx; return x; };
+}
+
+factory(2);
+a = f(10);
+b = f(3);
+c = g(5);
+
+print a;
+print ":n";
+print b;
+print ":n";
+print c;
+print ":n";

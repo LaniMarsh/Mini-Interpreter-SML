@@ -1,0 +1,36 @@
+var a;
+
+fun f()
+{
+   var a;
+   var h;
+   var g;
+   a = "in f:n";
+
+   h = anon()
+   {
+      var a;
+      a = "in h:n";
+      g();
+
+      print (a);
+   };
+
+   g = anon()
+   {
+      var a;
+      a = "in g:n";
+
+      print (a);
+   };
+
+   h();
+
+   g();
+
+   print (a);
+}
+
+a = "global:n";
+f();
+print (a);

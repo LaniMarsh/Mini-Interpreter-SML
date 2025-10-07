@@ -1,0 +1,48 @@
+var odds;
+var odd;
+
+fun f(x)
+{
+   var tmp;
+   var counter;
+   counter = anon()
+   {
+      tmp = x;
+      x = x + 1;
+      return tmp;
+   };
+   return counter;
+}
+
+fun filter(filt, gen)
+{
+   return anon ()
+   {
+      var tmp;
+      tmp = gen();
+      while (!filt(tmp))
+      {
+         tmp = gen();
+      }
+      return tmp;
+   };
+}
+
+   odd = anon (x) { return (x % 2) == 1; };
+   odds = filter(odd, f(1));
+   print (odds());
+   print (":n");
+   print (odds());
+   print (":n");
+   print (odds());
+   print (":n");
+   print (odds());
+   print (":n");
+   print (odds());
+   print (":n");
+   print (odds());
+   print (":n");
+   print (odds());
+   print (":n");
+   print (odds());
+   print (":n");

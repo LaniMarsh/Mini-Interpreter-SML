@@ -1,0 +1,26 @@
+var h;
+var fact;
+
+fun z(f) {
+   var g;
+   g = anon(x) {
+      return f(anon (y) {
+                return x(x)(y);
+              });
+   };
+   return g(g);
+}
+
+fact = anon (funcArg) {
+   return anon (x) {
+      if (x == 0) {
+         return 1;
+      }
+      else {
+         return x * (funcArg (x - 1));
+      }
+   };
+};
+h = z(fact);
+print (h(6));
+print (":n");

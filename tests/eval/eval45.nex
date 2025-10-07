@@ -1,0 +1,9 @@
+fun f() {}
+fun g() {}
+
+print (f == f);
+print (":n");
+print (f == g);
+print (":n");
+print (anon (){} == anon (){});
+print (":n");

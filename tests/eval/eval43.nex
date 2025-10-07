@@ -1,0 +1,18 @@
+fun f()
+{
+   var g;
+   g = anon()
+   {
+      var h;
+      h = anon()
+      {
+         return ("from h:n");
+      };
+
+      return h;
+   };
+
+   return g;
+}
+
+print (f()()());

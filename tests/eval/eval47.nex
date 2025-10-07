@@ -1,0 +1,25 @@
+var factory;
+var plus1;
+var plus10;
+fun f()
+{
+   var shared;
+   shared = 0;
+
+   return anon(x) {
+      return anon() {
+         shared = shared + x;
+         return shared;
+      };
+   };
+}
+
+factory = f();
+plus1 = factory(1);
+plus10 = factory(10);
+
+plus1();
+plus1();
+plus10();
+print (plus1());
+print ":n";
