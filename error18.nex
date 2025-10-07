@@ -1,0 +1,10 @@
+fun f(a,b)
+{
+   var a;
+   print (a);
+   print (":n");
+   print (b);
+   print (":n");
+}
+
+f(1, 2);

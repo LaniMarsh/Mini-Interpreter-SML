@@ -1,0 +1,9 @@
+fun f(a,a)
+{
+   print (a);
+   print (":n");
+   print (a);
+   print (":n");
+}
+
+f(1, 2);

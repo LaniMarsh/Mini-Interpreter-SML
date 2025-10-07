@@ -1,0 +1,5 @@
+fun f()
+{
+   return false;
+}
+   print (f() + 1);

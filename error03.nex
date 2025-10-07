@@ -1,0 +1,5 @@
+var x;
+  fun j(b)
+  {
+  }
+   x = j(true > 3);

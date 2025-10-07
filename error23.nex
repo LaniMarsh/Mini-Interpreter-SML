@@ -1,0 +1,1 @@
+anon (c, b) { var a; var a; }(1,1);
