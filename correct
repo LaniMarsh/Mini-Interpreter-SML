@@ -1,0 +1,1064 @@
+~~~~ Regression Tests ~~~~
+
+--------- BEGIN Test tests/regression/eval/hw4_eval01.sml ---------
+3
+--------- END Test tests/regression/eval/hw4_eval01.sml ---------
+
+--------- BEGIN Test tests/regression/eval/hw4_eval02.sml ---------
+true
+--------- END Test tests/regression/eval/hw4_eval02.sml ---------
+
+--------- BEGIN Test tests/regression/eval/hw4_eval03.sml ---------
+false
+--------- END Test tests/regression/eval/hw4_eval03.sml ---------
+
+--------- BEGIN Test tests/regression/eval/hw4_eval04.sml ---------
+none
+--------- END Test tests/regression/eval/hw4_eval04.sml ---------
+
+--------- BEGIN Test tests/regression/eval/hw4_eval05.sml ---------
+Hello, world.
+--------- END Test tests/regression/eval/hw4_eval05.sml ---------
+
+--------- BEGIN Test tests/regression/eval/hw4_eval06.sml ---------
+2
+Hello.
+none
+true
+false
+4
+--------- END Test tests/regression/eval/hw4_eval06.sml ---------
+
+--------- BEGIN Test tests/regression/eval/hw4_eval07.sml ---------
+2
+4
+Hello.
+true
+none
+false
+--------- END Test tests/regression/eval/hw4_eval07.sml ---------
+
+--------- BEGIN Test tests/regression/eval/hw4_eval08.sml ---------
+false
+true
+-2
+--------- END Test tests/regression/eval/hw4_eval08.sml ---------
+
+--------- BEGIN Test tests/regression/eval/hw4_eval09.sml ---------
+12
+2
+1
+60
+--------- END Test tests/regression/eval/hw4_eval09.sml ---------
+
+--------- BEGIN Test tests/regression/eval/hw4_eval10.sml ---------
+5
+-1
+6
+-4
+Hello, World.
+--------- END Test tests/regression/eval/hw4_eval10.sml ---------
+
+--------- BEGIN Test tests/regression/eval/hw4_eval11.sml ---------
+none
+--------- END Test tests/regression/eval/hw4_eval11.sml ---------
+
+--------- BEGIN Test tests/regression/eval/hw4_eval12.sml ---------
+2
+4
+Hello.
+true
+none
+false
+17
+--------- END Test tests/regression/eval/hw4_eval12.sml ---------
+
+--------- BEGIN Test tests/regression/eval/hw4_eval13.sml ---------
+1
+--------- END Test tests/regression/eval/hw4_eval13.sml ---------
+
+--------- BEGIN Test tests/regression/eval/hw4_eval14.sml ---------
+1
+1
+2
+9
+1
+--------- END Test tests/regression/eval/hw4_eval14.sml ---------
+
+--------- BEGIN Test tests/regression/eval/hw4_eval15.sml ---------
+3
+-5
+-4
+11
+-5
+7
+-5
+77
+52
+--------- END Test tests/regression/eval/hw4_eval15.sml ---------
+
+--------- BEGIN Test tests/regression/eval/hw4_eval16.sml ---------
+false
+true
+true
+false
+true
+--------- END Test tests/regression/eval/hw4_eval16.sml ---------
+
+--------- BEGIN Test tests/regression/eval/hw4_eval17.sml ---------
+5
+15
+40
+--------- END Test tests/regression/eval/hw4_eval17.sml ---------
+
+--------- BEGIN Test tests/regression/eval/hw4_eval18.sml ---------
+254
+--------- END Test tests/regression/eval/hw4_eval18.sml ---------
+
+--------- BEGIN Test tests/regression/eval/hw4_eval19.sml ---------
+2
+3
+2
+none
+2
+none
+2
+3
+--------- END Test tests/regression/eval/hw4_eval19.sml ---------
+
+--------- BEGIN Test tests/regression/eval/hw4_eval20.sml ---------
+17 10
+true false
+--------- END Test tests/regression/eval/hw4_eval20.sml ---------
+
+--------- BEGIN Test tests/regression/eval/hw4_eval21.sml ---------
+false
+true
+false
+true
+true
+true
+false
+true
+false
+true
+--------- END Test tests/regression/eval/hw4_eval21.sml ---------
+
+--------- BEGIN Test tests/regression/eval/hw4_eval23.sml ---------
+3
+-5
+-4
+11
+-5
+7
+-5
+77
+--------- END Test tests/regression/eval/hw4_eval23.sml ---------
+
+--------- BEGIN Test tests/regression/eval/hw4_eval24.sml ---------
+false
+true
+false
+false
+true
+false
+true
+true
+false
+true
+--------- END Test tests/regression/eval/hw4_eval24.sml ---------
+
+--------- BEGIN Test tests/regression/eval/hw4_eval25.sml ---------
+false
+false
+false
+true
+true
+true
+false
+true
+--------- END Test tests/regression/eval/hw4_eval25.sml ---------
+
+--------- BEGIN Test tests/regression/eval/hw4_eval26.sml ---------
+3
+none
+none
+3
+20
+none
+22
+4
+26
+--------- END Test tests/regression/eval/hw4_eval26.sml ---------
+
+--------- BEGIN Test tests/regression/eval/hw4_eval27.sml ---------
+44
+22
+44
+--------- END Test tests/regression/eval/hw4_eval27.sml ---------
+
+--------- BEGIN Test tests/regression/eval/hw4_eval28.sml ---------
+1 2 3 4 5 6 7 8 9 10
+5
+15
+40
+-1
+55
+--------- END Test tests/regression/eval/hw4_eval28.sml ---------
+
+--------- BEGIN Test tests/regression/eval/hw4_eval29.sml ---------
+100
+99
+98
+97
+96
+95
+94
+93
+92
+91
+90
+89
+88
+87
+86
+85
+84
+83
+82
+81
+80
+79
+78
+77
+76
+75
+74
+73
+72
+71
+70
+69
+68
+67
+66
+65
+64
+63
+62
+61
+60
+59
+58
+57
+56
+55
+54
+53
+52
+51
+50
+49
+48
+47
+46
+45
+44
+43
+42
+41
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+--------- END Test tests/regression/eval/hw4_eval29.sml ---------
+
+--------- BEGIN Test tests/regression/eval/hw4_eval30.sml ---------
+120
+--------- END Test tests/regression/eval/hw4_eval30.sml ---------
+
+--------- BEGIN Test tests/regression/eval/hw4_eval31.sml ---------
+31
+--------- END Test tests/regression/eval/hw4_eval31.sml ---------
+
+--------- BEGIN Test tests/regression/eval/hw4_eval32.sml ---------
+false
+true
+false
+false
+true
+true
+false
+true
+true
+false
+--------- END Test tests/regression/eval/hw4_eval32.sml ---------
+
+--------- BEGIN Test tests/regression/eval/hw4_eval33.sml ---------
+-15
+-14
+-13
+-12
+-11
+-10
+-9
+-8
+-7
+-6
+-5
+-4
+-3
+-2
+-1
+-14
+-13
+-12
+-11
+-10
+-9
+-8
+-7
+-6
+-5
+-4
+-3
+-2
+-1
+-13
+-12
+-11
+-10
+-9
+-8
+-7
+-6
+-5
+-4
+-3
+-2
+-1
+-12
+-11
+-10
+-9
+-8
+-7
+-6
+-5
+-4
+-3
+-2
+-1
+-11
+-10
+-9
+-8
+-7
+-6
+-5
+-4
+-3
+-2
+-1
+-9
+-8
+-7
+-6
+-5
+-4
+-3
+-2
+-1
+-8
+-7
+-6
+-5
+-4
+-3
+-2
+-1
+-7
+-6
+-5
+-4
+-3
+-2
+-1
+-6
+-5
+-4
+-3
+-2
+-1
+5
+-1112
+-4
+-3
+-2
+-1
+-3
+-2
+-1
+-2
+-1
+-1
+10
+--------- END Test tests/regression/eval/hw4_eval33.sml ---------
+
+--------- BEGIN Test tests/regression/eval/hw4_eval34.sml ---------
+--------- END Test tests/regression/eval/hw4_eval34.sml ---------
+
+--------- BEGIN Test tests/regression/eval/hw4_eval35.sml ---------
+none
+none
+7
+none
+17
+10
+--------- END Test tests/regression/eval/hw4_eval35.sml ---------
+
+--------- BEGIN Test tests/regression/eval/hw4_eval36.sml ---------
+false
+true
+false
+false
+--------- END Test tests/regression/eval/hw4_eval36.sml ---------
+
+--------- BEGIN Test tests/regression/eval/hw4_eval37.sml ---------
+true
+true
+false
+true
+--------- END Test tests/regression/eval/hw4_eval37.sml ---------
+
+--------- BEGIN Test tests/regression/eval/hw4_eval38.sml ---------
+1
+2
+2
+1
+3
+3
+--------- END Test tests/regression/eval/hw4_eval38.sml ---------
+
+--------- BEGIN Test tests/regression/eval/hw4_eval39.sml ---------
+14
+16
+12
+8
+6
+1
+0
+--------- END Test tests/regression/eval/hw4_eval39.sml ---------
+
+--------- BEGIN Test tests/regression/eval/hw4_eval40.sml ---------
+10
+Hello
+99
+--------- END Test tests/regression/eval/hw4_eval40.sml ---------
+
+--------- BEGIN Test tests/regression/error/hw4_error01.sml ---------
+operator '+' requires number * number or string * string, found number * boolean
+--------- END Test tests/regression/error/hw4_error01.sml ---------
+
+--------- BEGIN Test tests/regression/error/hw4_error02.sml ---------
+operator '+' requires number * number or string * string, found boolean * string
+--------- END Test tests/regression/error/hw4_error02.sml ---------
+
+--------- BEGIN Test tests/regression/error/hw4_error03.sml ---------
+operator '*' requires number * number, found none * number
+--------- END Test tests/regression/error/hw4_error03.sml ---------
+
+--------- BEGIN Test tests/regression/error/hw4_error04.sml ---------
+operator '-' requires number * number, found none * none
+--------- END Test tests/regression/error/hw4_error04.sml ---------
+
+--------- BEGIN Test tests/regression/error/hw4_error05.sml ---------
+operator '/' requires number * number, found number * boolean
+--------- END Test tests/regression/error/hw4_error05.sml ---------
+
+--------- BEGIN Test tests/regression/error/hw4_error06.sml ---------
+operator '%' requires number * number, found number * none
+--------- END Test tests/regression/error/hw4_error06.sml ---------
+
+--------- BEGIN Test tests/regression/error/hw4_error07.sml ---------
+operator '>' requires number * number, found boolean * boolean
+--------- END Test tests/regression/error/hw4_error07.sml ---------
+
+--------- BEGIN Test tests/regression/error/hw4_error08.sml ---------
+operator '<' requires number * number, found none * number
+--------- END Test tests/regression/error/hw4_error08.sml ---------
+
+--------- BEGIN Test tests/regression/error/hw4_error09.sml ---------
+operator '<=' requires number * number, found number * string
+--------- END Test tests/regression/error/hw4_error09.sml ---------
+
+--------- BEGIN Test tests/regression/error/hw4_error10.sml ---------
+operator '>=' requires number * number, found string * none
+--------- END Test tests/regression/error/hw4_error10.sml ---------
+
+--------- BEGIN Test tests/regression/error/hw4_error11.sml ---------
+operator '&&' requires boolean * boolean, found boolean * number
+--------- END Test tests/regression/error/hw4_error11.sml ---------
+
+--------- BEGIN Test tests/regression/error/hw4_error12.sml ---------
+operator '||' requires boolean, found none
+--------- END Test tests/regression/error/hw4_error12.sml ---------
+
+--------- BEGIN Test tests/regression/error/hw4_error13.sml ---------
+unary operator '!' requires boolean, found none
+--------- END Test tests/regression/error/hw4_error13.sml ---------
+
+--------- BEGIN Test tests/regression/error/hw4_error14.sml ---------
+unary operator '-' requires number, found boolean
+--------- END Test tests/regression/error/hw4_error14.sml ---------
+
+--------- BEGIN Test tests/regression/error/hw4_error15.sml ---------
+operator '*' requires number * number, found number * none
+--------- END Test tests/regression/error/hw4_error15.sml ---------
+
+--------- BEGIN Test tests/regression/error/hw4_error16.sml ---------
+boolean guard required for 'cond' expression, found none
+--------- END Test tests/regression/error/hw4_error16.sml ---------
+
+--------- BEGIN Test tests/regression/error/hw4_error17.sml ---------
+operator '+' requires number * number or string * string, found string * number
+--------- END Test tests/regression/error/hw4_error17.sml ---------
+
+--------- BEGIN Test tests/regression/error/hw4_error18.sml ---------
+operator '-' requires number * number, found string * string
+--------- END Test tests/regression/error/hw4_error18.sml ---------
+
+--------- BEGIN Test tests/regression/error/hw4_error19.sml ---------
+operator '+' requires number * number or string * string, found number * boolean
+--------- END Test tests/regression/error/hw4_error19.sml ---------
+
+--------- BEGIN Test tests/regression/error/hw4_error20.sml ---------
+operator '-' requires number * number, found none * none
+--------- END Test tests/regression/error/hw4_error20.sml ---------
+
+--------- BEGIN Test tests/regression/error/hw4_error21.sml ---------
+boolean guard required for 'while' statement, found none
+4
+3
+2
+1
+0
+-1
+-2
+--------- END Test tests/regression/error/hw4_error21.sml ---------
+
+--------- BEGIN Test tests/regression/error/hw4_error22.sml ---------
+operator '>' requires number * number, found none * number
+--------- END Test tests/regression/error/hw4_error22.sml ---------
+
+--------- BEGIN Test tests/regression/error/hw4_error23.sml ---------
+operator '>=' requires number * number, found number * none
+--------- END Test tests/regression/error/hw4_error23.sml ---------
+
+--------- BEGIN Test tests/regression/error/hw4_error24.sml ---------
+boolean guard required for 'while' statement, found number
+--------- END Test tests/regression/error/hw4_error24.sml ---------
+
+--------- BEGIN Test tests/regression/error/hw4_error25.sml ---------
+boolean guard required for 'if' statement, found number
+--------- END Test tests/regression/error/hw4_error25.sml ---------
+
+--------- BEGIN Test tests/regression/error/hw4_error26.sml ---------
+variable 'a' not found
+--------- END Test tests/regression/error/hw4_error26.sml ---------
+
+--------- BEGIN Test tests/regression/error/hw4_error27.sml ---------
+variable 'a' was previously declared
+--------- END Test tests/regression/error/hw4_error27.sml ---------
+~~~~ New Features ~~~~
+
+--------- BEGIN Test tests/eval/eval01.sml ---------
+0
+10
+11
+3
+--------- END Test tests/eval/eval01.sml ---------
+
+--------- BEGIN Test tests/eval/eval02.sml ---------
+9
+100
+--------- END Test tests/eval/eval02.sml ---------
+
+--------- BEGIN Test tests/eval/eval03.sml ---------
+9
+9
+--------- END Test tests/eval/eval03.sml ---------
+
+--------- BEGIN Test tests/eval/eval04.sml ---------
+none
+--------- END Test tests/eval/eval04.sml ---------
+
+--------- BEGIN Test tests/eval/eval05.sml ---------
+28 true
+28
+21
+false
+28 true
+--------- END Test tests/eval/eval05.sml ---------
+
+--------- BEGIN Test tests/eval/eval06.sml ---------
+0
+1
+2
+--------- END Test tests/eval/eval06.sml ---------
+
+--------- BEGIN Test tests/eval/eval07.sml ---------
+120
+--------- END Test tests/eval/eval07.sml ---------
+
+--------- BEGIN Test tests/eval/eval08.sml ---------
+2
+3
+7
+7
+--------- END Test tests/eval/eval08.sml ---------
+
+--------- BEGIN Test tests/eval/eval09.sml ---------
+28
+3
+7
+8
+3
+--------- END Test tests/eval/eval09.sml ---------
+
+--------- BEGIN Test tests/eval/eval10.sml ---------
+3
+2
+8
+2
+8
+--------- END Test tests/eval/eval10.sml ---------
+
+--------- BEGIN Test tests/eval/eval11.sml ---------
+20
+40
+38
+36
+34
+32
+30
+28
+26
+24
+22
+20
+18
+16
+14
+12
+10
+8
+6
+4
+2
+0
+-1
+--------- END Test tests/eval/eval11.sml ---------
+
+--------- BEGIN Test tests/eval/eval12.sml ---------
+999
+3
+999
+3
+999
+3
+999
+999
+17
+999
+17
+999
+17
+999
+3
+--------- END Test tests/eval/eval12.sml ---------
+
+--------- BEGIN Test tests/eval/eval13.sml ---------
+3
+2
+1
+99
+2
+1
+99
+1
+--------- END Test tests/eval/eval13.sml ---------
+
+--------- BEGIN Test tests/eval/eval14.sml ---------
+2
+3
+2
+3
+--------- END Test tests/eval/eval14.sml ---------
+
+--------- BEGIN Test tests/eval/eval15.sml ---------
+4
+4
+4
+9
+none
+4
+4
+none
+--------- END Test tests/eval/eval15.sml ---------
+
+--------- BEGIN Test tests/eval/eval16.sml ---------
+120
+--------- END Test tests/eval/eval16.sml ---------
+
+--------- BEGIN Test tests/eval/eval17.sml ---------
+0
+1
+2
+--------- END Test tests/eval/eval17.sml ---------
+
+--------- BEGIN Test tests/eval/eval18.sml ---------
+3
+7
+10
+--------- END Test tests/eval/eval18.sml ---------
+
+--------- BEGIN Test tests/eval/eval19.sml ---------
+0
+3
+1
+5
+2
+9
+4
+--------- END Test tests/eval/eval19.sml ---------
+
+--------- BEGIN Test tests/eval/eval20.sml ---------
+3
+none
+10
+9
+8
+7
+6
+5
+none
+--------- END Test tests/eval/eval20.sml ---------
+
+--------- BEGIN Test tests/eval/eval21.sml ---------
+1
+2
+--------- END Test tests/eval/eval21.sml ---------
+
+--------- BEGIN Test tests/eval/eval22.sml ---------
+3
+--------- END Test tests/eval/eval22.sml ---------
+
+--------- BEGIN Test tests/eval/eval23.sml ---------
+3
+8
+--------- END Test tests/eval/eval23.sml ---------
+
+--------- BEGIN Test tests/eval/eval24.sml ---------
+3
+8
+--------- END Test tests/eval/eval24.sml ---------
+
+--------- BEGIN Test tests/eval/eval25.sml ---------
+1
+--------- END Test tests/eval/eval25.sml ---------
+
+--------- BEGIN Test tests/eval/eval26.sml ---------
+7
+--------- END Test tests/eval/eval26.sml ---------
+
+--------- BEGIN Test tests/eval/eval27.sml ---------
+2
+7
+--------- END Test tests/eval/eval27.sml ---------
+
+--------- BEGIN Test tests/eval/eval28.sml ---------
+0
+1
+2
+3
+--------- END Test tests/eval/eval28.sml ---------
+
+--------- BEGIN Test tests/eval/eval29.sml ---------
+3
+--------- END Test tests/eval/eval29.sml ---------
+
+--------- BEGIN Test tests/eval/eval30.sml ---------
+2
+7
+--------- END Test tests/eval/eval30.sml ---------
+
+--------- BEGIN Test tests/eval/eval31.sml ---------
+3
+4
+--------- END Test tests/eval/eval31.sml ---------
+
+--------- BEGIN Test tests/eval/eval32.sml ---------
+1
+2
+--------- END Test tests/eval/eval32.sml ---------
+
+--------- BEGIN Test tests/eval/eval33.sml ---------
+100
+200
+99
+21
+--------- END Test tests/eval/eval33.sml ---------
+
+--------- BEGIN Test tests/eval/eval34.sml ---------
+100
+200
+2
+9
+--------- END Test tests/eval/eval34.sml ---------
+
+--------- BEGIN Test tests/eval/eval35.sml ---------
+1
+2
+3
+1
+2
+3
+4
+4
+--------- END Test tests/eval/eval35.sml ---------
+
+--------- BEGIN Test tests/eval/eval36.sml ---------
+0
+1
+2
+0
+1
+2
+3
+3
+--------- END Test tests/eval/eval36.sml ---------
+
+--------- BEGIN Test tests/eval/eval37.sml ---------
+3
+4
+10
+0
+--------- END Test tests/eval/eval37.sml ---------
+
+--------- BEGIN Test tests/eval/eval38.sml ---------
+1
+3
+5
+7
+9
+11
+13
+15
+--------- END Test tests/eval/eval38.sml ---------
+
+--------- BEGIN Test tests/eval/eval39.sml ---------
+0
+1
+2
+3
+--------- END Test tests/eval/eval39.sml ---------
+
+--------- BEGIN Test tests/eval/eval40.sml ---------
+120
+--------- END Test tests/eval/eval40.sml ---------
+
+--------- BEGIN Test tests/eval/eval41.sml ---------
+1
+2
+3
+2
+101
+4
+5
+104
+7
+5
+2
+7
+5
+104
+7
+7
+4
+9
+7
+104
+9
+--------- END Test tests/eval/eval41.sml ---------
+
+--------- BEGIN Test tests/eval/eval42.sml ---------
+in g
+in h
+in g
+in f
+global
+--------- END Test tests/eval/eval42.sml ---------
+
+--------- BEGIN Test tests/eval/eval43.sml ---------
+from h
+--------- END Test tests/eval/eval43.sml ---------
+
+--------- BEGIN Test tests/eval/eval44.sml ---------
+function
+function
+--------- END Test tests/eval/eval44.sml ---------
+
+--------- BEGIN Test tests/eval/eval45.sml ---------
+true
+false
+false
+--------- END Test tests/eval/eval45.sml ---------
+
+--------- BEGIN Test tests/eval/eval46.sml ---------
+3
+2
+8
+2
+8
+--------- END Test tests/eval/eval46.sml ---------
+
+--------- BEGIN Test tests/eval/eval47.sml ---------
+13
+--------- END Test tests/eval/eval47.sml ---------
+
+--------- BEGIN Test tests/eval/eval48.sml ---------
+12
+15
+10
+--------- END Test tests/eval/eval48.sml ---------
+
+--------- BEGIN Test tests/eval/ycomb.sml ---------
+720
+--------- END Test tests/eval/ycomb.sml ---------
+
+--------- BEGIN Test tests/error/error01.sml ---------
+attempt to invoke 'number' value as a function
+--------- END Test tests/error/error01.sml ---------
+
+--------- BEGIN Test tests/error/error02.sml ---------
+attempt to invoke 'none' value as a function
+--------- END Test tests/error/error02.sml ---------
+
+--------- BEGIN Test tests/error/error03.sml ---------
+operator '>' requires number * number, found boolean * number
+--------- END Test tests/error/error03.sml ---------
+
+--------- BEGIN Test tests/error/error04.sml ---------
+operator '>' requires number * number, found number * boolean
+--------- END Test tests/error/error04.sml ---------
+
+--------- BEGIN Test tests/error/error05.sml ---------
+boolean guard required for 'if' statement, found number
+--------- END Test tests/error/error05.sml ---------
+
+--------- BEGIN Test tests/error/error06.sml ---------
+attempt to invoke 'none' value as a function
+--------- END Test tests/error/error06.sml ---------
+
+--------- BEGIN Test tests/error/error07.sml ---------
+operator '+' requires number * number or string * string, found number * none
+--------- END Test tests/error/error07.sml ---------
+
+--------- BEGIN Test tests/error/error08.sml ---------
+operator '+' requires number * number or string * string, found boolean * number
+--------- END Test tests/error/error08.sml ---------
+
+--------- BEGIN Test tests/error/error09.sml ---------
+operator '+' requires number * number or string * string, found number * boolean
+--------- END Test tests/error/error09.sml ---------
+
+--------- BEGIN Test tests/error/error10.sml ---------
+variable 'f' not found
+--------- END Test tests/error/error10.sml ---------
+
+--------- BEGIN Test tests/error/error11.sml ---------
+attempt to invoke 'boolean' value as a function
+function
+true
+--------- END Test tests/error/error11.sml ---------
+
+--------- BEGIN Test tests/error/error12.sml ---------
+operator '+' requires number * number or string * string, found function * number
+--------- END Test tests/error/error12.sml ---------
+
+--------- BEGIN Test tests/error/error13.sml ---------
+return outside of function
+--------- END Test tests/error/error13.sml ---------
+
+--------- BEGIN Test tests/error/error15.sml ---------
+too few arguments in call
+--------- END Test tests/error/error15.sml ---------
+
+--------- BEGIN Test tests/error/error16.sml ---------
+too many arguments in call
+--------- END Test tests/error/error16.sml ---------
+
+--------- BEGIN Test tests/error/error17.sml ---------
+variable 'a' was previously declared
+--------- END Test tests/error/error17.sml ---------
+
+--------- BEGIN Test tests/error/error18.sml ---------
+variable 'a' was previously declared
+--------- END Test tests/error/error18.sml ---------
+
+--------- BEGIN Test tests/error/error19.sml ---------
+variable 'a' was previously declared
+--------- END Test tests/error/error19.sml ---------
+
+--------- BEGIN Test tests/error/error20.sml ---------
+variable 'a' was previously declared
+--------- END Test tests/error/error20.sml ---------
+
+--------- BEGIN Test tests/error/error21.sml ---------
+variable 'f' was previously declared
+--------- END Test tests/error/error21.sml ---------
+
+--------- BEGIN Test tests/error/error22.sml ---------
+variable 'f' was previously declared
+--------- END Test tests/error/error22.sml ---------
+
+--------- BEGIN Test tests/error/error23.sml ---------
+variable 'a' was previously declared
+--------- END Test tests/error/error23.sml ---------
