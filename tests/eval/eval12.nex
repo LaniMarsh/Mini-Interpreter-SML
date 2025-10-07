@@ -1,0 +1,40 @@
+  var i;
+  fun f(n)
+  {
+    var i;
+    i = 999;
+    print (i);
+    print (":n");
+    if (n > 0)
+    {
+      g(n);
+    }
+    print (i);
+    print (":n");
+  }
+  fun g(n)
+  {
+    print (i);
+    print (":n");
+    h(n);
+  }
+  fun h(n)
+  {
+    j(n);
+  }
+  fun j(n)
+  {
+    var j;
+    j = 17;
+    k(n);
+    print (j);
+    print (":n");
+  }
+  fun k(n)
+  {
+    f(n - 1);
+  }
+i = 3;
+f(3);
+print (i);
+print (":n");

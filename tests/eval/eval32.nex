@@ -1,0 +1,15 @@
+var a;
+var b;
+var c;
+fun f(g)
+{
+   var b;
+   var c;
+   b = 100;
+   c = 200;
+   a = g();
+}
+
+   b = 1;
+   c = 2;
+   a = f(anon () { print (b); print (":n");  print (c); print (":n");});

@@ -1,0 +1,32 @@
+var a;
+var b;
+var g;
+var d;
+
+fun f()
+{
+   var a;
+   var c;
+   var d;
+   a = b = g; d = 9;
+   print (a);
+   print (":n");
+   print (b);
+   print (":n");
+   print (g);
+   print (":n");
+   print (d);
+   print (":n");
+}
+
+g = 4;
+f();
+
+print (a);
+print (":n");
+print (b);
+print (":n");
+print (g);
+print (":n");
+print (d);
+print (":n");

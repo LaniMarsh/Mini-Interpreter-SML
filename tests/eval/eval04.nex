@@ -1,0 +1,6 @@
+fun f()
+{
+}
+
+print (f());
+print (":n");
